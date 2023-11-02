@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+
+   <div class="contenedor">
+        <div class="cabecera">
+            <h1>Lista de Tareas</h1>
+        </div>
+        <form id="form-crear" class="formulario">
+            <div class="form-control">
+                <input type="text" id="crear" class="form-control" placeholder="escribe tu tarea">
+                <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </form>
+
+   </div>
+   
+   <section>
+    <form action="">
+        <input type="text" id="buscar" placeholder="buscar...">
+    </form>
+    <ul id="lista-tareas" class="list-group">
+        <li><strong>comer</strong><i class="fa-solid fa-trash-can borrar"></i></li>
+        <li><strong>salir</strong><i class="fa-solid fa-trash-can borrar"></i></li>
+        <li><strong>trabajar</strong><i class="fa-solid fa-trash-can borrar"></i></li>
+
+    </ul>
+   </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
